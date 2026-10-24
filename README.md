@@ -9,12 +9,12 @@ Notebook ini membangun model klasifikasi citra digit tulisan tangan dengan SVM. 
 ## Tujuan
 
 - Memahami cara kerja SVM untuk klasifikasi multikelas.
-- Membandingkan pengaruh kernel (linear, polynomial, RBF) terhadap akurasi. **[sesuaikan]**
+- Membandingkan pengaruh kernel (linear, polynomial, RBF) terhadap akurasi.
 - Mengevaluasi model dengan metrik yang tepat.
 
 ## Dataset
 
-- Dataset: **[MNIST / scikit-learn Digits — sesuaikan]**
+- Dataset: **MNIST / scikit-learn Digits**
 - Isi: gambar digit tulisan tangan beserta label 0–9.
 
 ## Alur Kerja
@@ -22,8 +22,8 @@ Notebook ini membangun model klasifikasi citra digit tulisan tangan dengan SVM. 
 1. **Import library & load data**
 2. **Eksplorasi data (EDA)**: visualisasi contoh gambar dan distribusi kelas
 3. **Praproses**: normalisasi/scaling piksel, pembagian data latih dan uji
-4. **Pelatihan model**: SVM dengan kernel tertentu **[sesuaikan]**
-5. **Tuning hyperparameter** (mis. `C`, `gamma`) dengan GridSearchCV **[sesuaikan]**
+4. **Pelatihan model**: SVM dengan kernel tertentu **['linear', 'poly', 'rbf']**
+5. **Tuning hyperparameter** (`C`, `gamma`) dengan GridSearchCV
 6. **Evaluasi**: accuracy, precision, recall, F1-score, dan confusion matrix
 
 ## Teknologi
